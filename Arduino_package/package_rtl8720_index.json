@@ -1,0 +1,101 @@
+{
+  "packages": [
+    {
+      "name": "RTL8720DN",
+      "maintainer": "xidameng",
+      "websiteURL": "https://www.amebaiot.com/",
+      "email": "xidameng@gmail.com",
+      "help": {
+        "online": "https://www.amebaiot.com/"
+      },
+
+      "platforms": [
+		{
+          "name": "Ameba RTL8720DN (BW16) IoT board",
+          "architecture": "AmebaD",
+          "version": "1.0.0-307",
+          "category": "Contributed",
+          "help": {
+            "online": "https://www.amebaiot.com/"
+          },
+          "url": "https://github.com/xidameng/ambd_arduino/raw/master/Arduino_package/release/ameba_d-1.0.0.tar.gz",
+          "archiveFileName": "ameba_d-1.0.0.tar.gz",
+          "checksum": "SHA-256:1e8eb3975bc6ed756f2a0c958dae0c0b998ae6b1ac8d1ecf402c46a77589fa16",
+          "size": "22419367",
+          "boards": [
+            {"name": "RTL8720DN"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "RTL8720DN",
+              "name": "ameba_d_asdk_toolchain",
+              "version": "1.0.1"
+            },
+            {
+              "packager": "RTL8720DN",
+              "name": "ameba_d_tools",
+              "version": "1.0.4"
+            }
+          ]
+        }
+      ],
+
+      "tools": [
+		{
+          "name": "ameba_d_asdk_toolchain",
+          "version":"1.0.1",
+          "systems": [
+            {
+              "host":"i686-mingw32",
+              "archiveFileName":"ameba_d_toolchain_windows-1.0.1.tar.bz2",
+              "url":"https://github.com/xidameng/ambd_arduino/raw/master/Arduino_package/release/ameba_d_toolchain_windows-1.0.1.tar.bz2",
+              "checksum":"SHA-256:1157b225e207bcf4703aaeb42acbb4b10d1c0efa0696005d2e000866ba1249f0",
+              "size":"99360611"
+            },
+            {
+              "host":"x86_64-pc-linux-gnu",
+              "archiveFileName":"ameba_d_toolchain_linux_64-1.0.1.tar.bz2",
+              "url":"https://github.com/xidameng/ambd_arduino/raw/master/Arduino_package/release/ameba_d_toolchain_linux_64-1.0.1.tar.bz2",
+              "checksum":"SHA-256:340ab2af5100102f7a1f5ba89b3490a843fa2aed05276427f5cc6c6c01032cd7",
+              "size":"87899387"
+            },
+            {
+              "host":"x86_64-apple-darwin",
+              "archiveFileName":"ameba_d_toolchain_macos-1.0.1.tar.bz2",
+              "url":"https://github.com/xidameng/ambd_arduino/raw/master/Arduino_package/release/ameba_d_toolchain_macos-1.0.1.tar.bz2",
+              "checksum":"SHA-256:cc52c2c3650e21ef636bc10242432f75cd0f4884b1188f328982e77030d91787",
+              "size":"91538901"
+            }
+          ]
+        },
+		{
+          "name": "ameba_d_tools",
+          "version": "1.0.4",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "archiveFileName": "ameba_d_tools_windows-1.0.4.tar.gz",
+              "url": "https://github.com/xidameng/ambd_arduino/raw/master/Arduino_package/release/ameba_d_tools_windows-1.0.4.tar.gz",
+              "checksum": "SHA-256:4b4deef71f2a67697fc5b87294d4657ea8e78b0d88aac81f3966a81d3bae67cb",
+              "size": "4137088"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "archiveFileName": "ameba_d_tools_linux-1.0.4.tar.gz",
+              "url": "https://github.com/xidameng/ambd_arduino/raw/master/Arduino_package/release/ameba_d_tools_linux-1.0.4.tar.gz",
+              "checksum": "SHA-256:053fc5ba3897438e43c3031bfb8b77982d1d68e643b0b7466d3c26159fdeafad",
+              "size": "8799158"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "archiveFileName": "ameba_d_tools_macos-1.0.4.tar.gz",
+              "url": "https://github.com/xidameng/ambd_arduino/raw/master/Arduino_package/release/ameba_d_tools_macos-1.0.4.tar.gz",
+              "checksum": "SHA-256:d3bb85155631fb0d14552b4424e45149ce53cd273fd7d9d3393e1c52357f1f9b",
+              "size": "6077070"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

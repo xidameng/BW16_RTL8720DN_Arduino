@@ -1,0 +1,17 @@
+ameba_rtl8720d.name=RTL8720DN
+ameba_rtl8720d.vid.0=0x2341
+ameba_rtl8720d.pid.0=0x003d
+ameba_rtl8720d.upload.tool=ameba_d_tools
+ameba_rtl8720d.upload.protocol=mbed_dap
+ameba_rtl8720d.upload.maximum_size=2097152
+ameba_rtl8720d.upload.use_1200bps_touch=false
+ameba_rtl8720d.upload.wait_for_upload_port=false
+ameba_rtl8720d.upload.native_usb=false
+ameba_rtl8720d.build.mcu=cortex-m33
+ameba_rtl8720d.build.f_cpu=200000000L
+ameba_rtl8720d.build.usb_product="RTL8722DM/RTL8722CSM"
+ameba_rtl8720d.build.board=AMEBA
+ameba_rtl8720d.build.core=arduino
+ameba_rtl8720d.build.extra_flags=-mthumb -DBOARD_RTL8720D -DBOARD_RTL8721D {build.usb_flags}
+ameba_rtl8720d.build.ldscript=linker_scripts/gcc/rlx8721d_img2_is_arduino.ld
+ameba_rtl8720d.build.variant=rtl8720dn
